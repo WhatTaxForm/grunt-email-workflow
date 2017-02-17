@@ -1,0 +1,33 @@
+---
+layout: default.hbs
+subject: Reset your password
+---
+<table class="main">
+    <tr class="wtf-header">
+        <td>
+            <a href="https://www.whattaxform.com"><img src="https://app.whattaxform.com/patterns/wtf-logo-white.png" height="29" width="200" alt="What Tax Form"></a>
+        </td>
+    </tr>
+    <tr>
+        <td class="wtf-wrapper">
+            <table>
+                <tr>
+                    <td>
+                        <p>A password reset has been requested for the account related to this address (${email}).</p>
+
+                        <p>Reset your password using the button below!</p>
+
+                        {{> wtf-button align='center' url='${urlWithoutHash}' title='Reset Password' }}
+                        <br>
+                        <p>If you did not request this password reset, please ignore this email.</p>
+                        <br>
+                        <p style="font-size: 25px;">Regards,</p>
+                        <p style="font-size: 20px;">&mdash; The team at WhatTaxForm</p>
+                        <br>
+                        <p>If you have any questions, please contact our <a href="mailto:support@whattaxform.com">support team</a>.</p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>

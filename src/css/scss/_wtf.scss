@@ -1,0 +1,80 @@
+.wtf-header {
+    background-color: $wtf-green;
+    text-align: center;
+    width: 100%;
+
+    td {
+        padding: $wtf-header-padding;
+    }
+}
+
+.wtf-wrapper {
+  padding: $wtf-padding;
+}
+
+.wtf-btn {
+  width: 100%;
+
+  > tr > td {
+    padding-bottom: 15px;
+  }
+
+  table {
+    width: auto;
+  }
+
+  table td {
+    background-color: #ffffff;
+    border-radius: $btn-br;
+    text-align: center;
+  }
+
+  a{
+    background-color: #ffffff;
+    border: solid 1px $wtf-green;
+    border-radius: $btn-br;
+    color: $wtf-green;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    padding: 12px 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+}
+
+.wtf-btn-primary {
+
+  table td {
+    background-color: $wtf-green;
+  }
+
+  a{
+    background-color: $wtf-green;
+    border-color: $wtf-green;
+    color: #ffffff;
+  }
+}
+
+
+.wtf-footer {
+    background-color: $wtf-purple;
+    color: $wtf-offwhite;
+
+    .larger {
+        font-size: 25px;
+    }
+
+    .tight {
+        line-height: 20px;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+

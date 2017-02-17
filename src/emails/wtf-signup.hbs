@@ -1,0 +1,31 @@
+---
+layout: default.hbs
+subject: Register for WhatTaxForm
+---
+<table class="main">
+    <tr class="wtf-header">
+        <td>
+            <a href="https://www.whattaxform.com"><img src="https://app.whattaxform.com/patterns/wtf-logo-white.png" height="29" width="200" alt="What Tax Form"></a>
+        </td>
+    </tr>
+    <tr>
+        <td class="wtf-wrapper">
+            <table>
+                <tr>
+                    <td>
+                        <p>You are receiving this email because ${company.companyName} uses WhatTaxForm to help users fill out documents.</p>
+
+                        <p>Please register using the button below!</p>
+
+                        {{> wtf-button align='center' url='https://app.whattaxform.com/register' title='Register' }}
+                        <br>
+                        <p style="font-size: 25px;">Thanks and welcome!</p>
+                        <p style="font-size: 20px;">&mdash; The team at WhatTaxForm</p>
+                        <br>
+                        <p>If you have any questions, please contact our <a href="mailto:support@whattaxform.com">support team</a>.</p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>

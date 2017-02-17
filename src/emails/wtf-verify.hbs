@@ -1,0 +1,31 @@
+---
+layout: default.hbs
+subject: Verify your email address
+---
+<table class="main">
+    <tr class="wtf-header">
+        <td>
+            <a href="https://www.whattaxform.com"><img src="https://app.whattaxform.com/patterns/wtf-logo-white.png" height="29" width="200" alt="What Tax Form"></a>
+        </td>
+    </tr>
+    <tr>
+        <td class="wtf-wrapper">
+            <table>
+                <tr>
+                    <td>
+                        <h1>Hi ${firstName},</h1>
+                        <p>Welcome to WhatTaxForm!</p>
+                        <p>Please verify your email address using the button below!</p>
+
+                        {{> wtf-button align='center' url='${urlWithoutHash}' title='Verify Email' }}
+                        <br>
+                        <p style="font-size: 25px;">Thanks!</p>
+                        <p style="font-size: 20px;">&mdash; The team at WhatTaxForm</p>
+                        <br>
+                        <p>If you have any questions, please contact our <a href="mailto:support@whattaxform.com">support team</a>.</p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
